@@ -1,19 +1,9 @@
 import React from 'react';
-import { Level, Section } from 'reactbulma';
-import Slider from 'react-slick';
 
 import './index.css';
 import Slide from '../components/Slide';
 import Events from '../data/Events';
 import Header from '../components/Header';
-
-const sliderSetting = {
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1
-};
 
 class Landing extends React.Component {
 
@@ -39,11 +29,11 @@ class Landing extends React.Component {
                 <div className="carousel-inner slider">
                   <ol className="carousel-indicators">
                     {
-                      Events.map((event, index) => <li key={index} data-target="#events" data-slide-to={index} className={index == 0 ? 'active' : ''}></li>)
+                      Events.map((event, index) => <li key={index} data-target="#events" data-slide-to={index} className={index === 0 ? 'active' : ''}></li>)
                     }
                   </ol>
                   {
-                    Events.map((event, index) => <Slide key={'event+' + index} active={index == 0} event={event} />)
+                    Events.map((event, index) => <Slide key={'event+' + index} active={index === 0} event={event} />)
                   }
                 </div>
               </div>

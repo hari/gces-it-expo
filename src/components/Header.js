@@ -1,5 +1,5 @@
 import React from 'react';
-import { Level, Section } from 'reactbulma';
+import { Level } from 'reactbulma';
 import { Link } from 'react-router-dom';
 
 class Header extends React.Component {
