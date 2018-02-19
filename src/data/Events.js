@@ -26,7 +26,7 @@ export default [
   {
     name: "College level competition",
     description: "A problem solving/programming competition between the diploma/bachelor’s level students.",
-    action: null,
+    action: '<div><a target="_blank" role="button" href="https://goo.gl/wz7qYN" class="btn btn-primary">Register now</a><div>',
     image: require('../resources/img_competition.png')
   },
   {
