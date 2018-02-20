@@ -143,3 +143,9 @@ ul {
 .card-body {
   min-height: 280px;
 }
+
+.download {
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
