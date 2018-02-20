@@ -33,8 +33,8 @@ class Landing extends React.Component {
                 </blockquote>
                 <hr />
                 <div>
-                  <span style={{ color: '#f8f8f8', margin: '8px 0' }}>Have any queries or questions?</span> &nbsp; 
-                  <a className="btn btn-success" href="mailto:expo@gces.edu.np?subject=About+IT+Expo">Contact</a>
+                  <span style={{ color: '#f8f8f8', margin: '8px 0' }}>Have any queries or questions?</span> &nbsp;
+                  <a style={{color: '#fff'}} className="btn btn-sm btn-outline-dark" href="mailto:expo@gces.edu.np?subject=About+IT+Expo">Contact Us</a>
                 </div>
               </div>
             </div>
