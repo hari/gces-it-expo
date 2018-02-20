@@ -147,12 +147,13 @@ ul {
   border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
 
-.btn-event.btn-outline-primary {
+.btn-event {
   border-color: #000;
   color: #000000;
 }
 
-.btn-event.btn-outline-primary:focus, .btn-event.btn-outline-primary:hover {
+.btn-event:focus, .btn-event:hover {
   border-color: #007bff;
+  background-color: #007bff;
   color: #f7f7f7;
 }
