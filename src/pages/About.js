@@ -1,13 +1,10 @@
 import React from 'react';
 
-import Header from '../components/Header';
-
 class About extends React.Component {
 
   render() {
     return (
       <div id="about">
-        <Header />
         <div className="container gces-col">
           <h1>GCES IT EXPO 2018</h1>
           <p>
