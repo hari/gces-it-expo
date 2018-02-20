@@ -17,8 +17,7 @@ class Home extends React.Component {
                 <Route path="/downloads" component={Download}/>
                 <Route exact path="/" component={Landing}/>
                 <footer>
-                    <p style={{padding: '16px', color: '#abc', fontSize: '18px', textAlign: 'center'}}>Powered by: <span
-                        style={{color: '#fff'}}>Codse</span></p>
+                    <p><em>Powered by: Codse</em></p>
                 </footer>
             </section>
         </BrowserRouter>

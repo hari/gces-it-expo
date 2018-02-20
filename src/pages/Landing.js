@@ -8,7 +8,7 @@ class Landing extends React.Component {
 
   render() {
     return (
-      <div>
+      <section className="wrapper">
         <div className="container main-background">
           <div className="row">
             <div className="col-md-6" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
@@ -34,7 +34,7 @@ class Landing extends React.Component {
                 <hr />
                 <div>
                   <span style={{ color: '#f8f8f8', margin: '8px 0' }}>Have any queries or questions?</span> &nbsp;
-                  <a style={{color: '#fff'}} className="btn btn-sm btn-outline-dark" href="mailto:expo@gces.edu.np?subject=About+IT+Expo">Contact Us</a>
+                  <a className="btn btn-sm btn-action" href="mailto:expo@gces.edu.np?subject=About+IT+Expo">Contact Us</a>
                 </div>
               </div>
             </div>
@@ -54,7 +54,7 @@ class Landing extends React.Component {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     );
   }
 }
