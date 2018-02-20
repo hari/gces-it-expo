@@ -20,13 +20,13 @@ export default [
   {
     name: "Project Expo",
     description: "A showcase of the Software projects developed by the students of Gandaki College of Engineering and Science, along with projects by students of different Tech Colleges of Pokhara. A panel of judges will give scores, and votes from audiences will choose the best projects who will be rewarded.",
-    action: '<div><a target="_blank" role="button" href="https://goo.gl/forms/H27XLOaormAySmhv1" class="btn btn-primary">Register now</a><div>',
+    action: '<div><a target="_blank" role="button" href="https://goo.gl/forms/H27XLOaormAySmhv1" class="btn btn-event btn-outline-primary">Register Now</a><div>',
     image: require('../resources/img_expo.png')
   },
   {
     name: "College level competition",
     description: "A problem solving/programming competition between the diploma/bachelor’s level students.",
-    action: '<div><a target="_blank" role="button" href="https://goo.gl/wz7qYN" class="btn btn-primary">Register now</a><div>',
+    action: '<div><a target="_blank" role="button" href="https://goo.gl/wz7qYN" class="btn btn-event btn-outline-primary">Register Now</a><div>',
     image: require('../resources/img_competition.png')
   },
   {
