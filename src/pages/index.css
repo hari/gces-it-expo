@@ -18,7 +18,7 @@ html, body {
 #root header {
   padding: 16px;
   background-color: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 0 15px #000;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .2);;
 }
 
 .clear::after {
@@ -57,7 +57,7 @@ nav li {
 }
 
 .title {
-  text-shadow: 2px 2px 5px #000;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
 }
 
 .title--event {
@@ -106,9 +106,9 @@ nav li {
   padding: 0;
   position: relative;
   overflow: hidden;
-  -webkit-box-shadow: 2px 4px 22px #000;
-  -moz-box-shadow: 2px 4px 22px #000;
-  box-shadow: 2px 4px 22px #000;
+  -webkit-box-shadow: 2px 4px 22px rgba(0, 0, 0, .2);
+  -moz-box-shadow: 2px 4px 22px rgba(0, 0, 0, .2);
+  box-shadow: 2px 4px 22px rgba(0, 0, 0, .2);
 }
 
 .slider, #events {
@@ -166,8 +166,8 @@ ul {
 }
 
 .btn-action {
-  border-color: #000;
-  color: #000000;
+  border-color: rgba(0, 0, 0, .65);
+  color:  rgba(0, 0, 0, .75);
 }
 
 .btn-action:focus, .btn-action:hover {
