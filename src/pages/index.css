@@ -49,10 +49,6 @@ html, body {
   background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.main-background {
-  
-}
-
 .title--event {
   font-size: 30px;
   color: #f7f7f7;
