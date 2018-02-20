@@ -56,6 +56,10 @@ nav li {
   min-height: 545px;
 }
 
+.title {
+  text-shadow: 2px 2px 5px #000;
+}
+
 .title--event {
   font-size: 30px;
   color: #f7f7f7;
